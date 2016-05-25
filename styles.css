@@ -3,6 +3,8 @@ div {
   border: solid;
   background-color: red;
   float: right;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 h1 {
@@ -31,4 +33,8 @@ img.left {
 
 img.right {
   float: right;
+}
+
+img {
+  padding: 10px 10px 10px 10px;
 }
