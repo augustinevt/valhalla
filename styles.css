@@ -1,14 +1,14 @@
 div {
+  display: inline-block;
   border: solid;
-  padding: 30px 30px 30px;
-  margin: 15px 15px 15px 15px;
+  background-color: red;
+  float: right;
 }
-
 
 h1 {
   color: #D46F6A;
-  font-size: 500%
-h2{
+  font-size: 500% }
+h2 {
   color: #D46F6A;
   font-size: 300%
 }
@@ -22,18 +22,13 @@ p {
   font-family: serif;
 }
 body {
-  background-color: #AA3F39;
+  background-color: black;
 }
 
-.left {
+img.left {
   float: left;
 }
 
-.right {
+img.right {
   float: right;
-}
-
-.sidebar {
-  float: right;
-  position: absolute;
 }
